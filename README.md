@@ -5,6 +5,11 @@ You must create a bare repository.
 git init --bare new-repo
 ```
 ## On Local Server
+Seta  email and a username that you can modify on user's directory
+```
+git config global user.email "o.o"
+git config global user.name "o'
+```
 Clone the repo
 ```
 git clone git@server:/path/repo
