@@ -26,6 +26,10 @@ Push to remote repository
 ```
 git push -u origin main
 ```
+or
+```
+git push git@github.com:/uvns/project.git main
+```
 ## pull or push
 Since you have cloned, you can pull without 'path' and 'user'
 ```
