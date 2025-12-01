@@ -1,6 +1,6 @@
 # Git CLI Usage
 ## On Git Server
-You must create a bare repository.
+You must create a bare repository
 ```
 git init --bare new-repo
 ```
@@ -14,7 +14,7 @@ Clone the repo
 ```
 git clone git@server:/path/repo
 ```
-Since you add or change files, add the changed files to temporary area.
+Since you add or change files, add the changed files to temporary area
 ```
 git add .
 ```
@@ -25,4 +25,9 @@ git commit -m "News"
 Push to remote repository
 ```
 git push -u origin main
+```
+## pull or push
+Since you have cloned, you can pull without 'path' and 'user'
+```
+git pull origin main
 ```
